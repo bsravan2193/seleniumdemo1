@@ -14,6 +14,7 @@ public class Class1 {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://opensource-demo.orangehrmlive.com/");
+		System.out.println("Hi, first change");
 		Thread.sleep(3000); 		
 		driver.quit();
 		
